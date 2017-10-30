@@ -15,6 +15,8 @@
 		CE3CF90B1F9EE66B003CF238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3CF9091F9EE66B003CF238 /* LaunchScreen.storyboard */; };
 		CE3CF9161F9EE66B003CF238 /* slot_machine_midTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CF9151F9EE66B003CF238 /* slot_machine_midTests.swift */; };
 		CE3CF9211F9EE66B003CF238 /* slot_machine_midUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CF9201F9EE66B003CF238 /* slot_machine_midUITests.swift */; };
+		CE3CF92F1F9EE764003CF238 /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CF92E1F9EE764003CF238 /* Digit.swift */; };
+		CE3CF9311F9EE791003CF238 /* SlotMachineGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CF9301F9EE791003CF238 /* SlotMachineGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CE3CF91C1F9EE66B003CF238 /* slot machine midUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slot machine midUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3CF9201F9EE66B003CF238 /* slot_machine_midUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slot_machine_midUITests.swift; sourceTree = "<group>"; };
 		CE3CF9221F9EE66B003CF238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3CF92E1F9EE764003CF238 /* Digit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
+		CE3CF9301F9EE791003CF238 /* SlotMachineGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotMachineGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				CE3CF8FE1F9EE66B003CF238 /* AppDelegate.swift */,
 				CE3CF9001F9EE66B003CF238 /* FirstViewController.swift */,
 				CE3CF9021F9EE66B003CF238 /* SecondViewController.swift */,
+				CE3CF92E1F9EE764003CF238 /* Digit.swift */,
+				CE3CF9301F9EE791003CF238 /* SlotMachineGame.swift */,
 				CE3CF9041F9EE66B003CF238 /* Main.storyboard */,
 				CE3CF9071F9EE66B003CF238 /* Assets.xcassets */,
 				CE3CF9091F9EE66B003CF238 /* LaunchScreen.storyboard */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3CF9311F9EE791003CF238 /* SlotMachineGame.swift in Sources */,
 				CE3CF9031F9EE66B003CF238 /* SecondViewController.swift in Sources */,
 				CE3CF8FF1F9EE66B003CF238 /* AppDelegate.swift in Sources */,
 				CE3CF9011F9EE66B003CF238 /* FirstViewController.swift in Sources */,
+				CE3CF92F1F9EE764003CF238 /* Digit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
