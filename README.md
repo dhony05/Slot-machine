@@ -1,7 +1,7 @@
 # Slot-machine
 <h2>Based on slot machine original game but using random numbers instead. There is two levels , one slot machine with 3 digits and another with 5 digits.</h2>
 
-<h2> Manage the score as follows:</h2>
+<h2> The game score is managed as follows:</h2>
 <ul> <li>A new game starts with a score of 100.</li>
   <li>Each spin costs the player two points.</li>
 <li>All digits equal and colors equal the user earns 300 points in the 3-Digit game and 500 points in the 5-Digit game.</li>
